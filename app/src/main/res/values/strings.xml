@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyPokerCalculator</string>
+    <string name="STOP">STOP</string>
+    <string name="START">Start</string>
+    <string name="community_cards">Community cards</string>
+    <string name="first_player">First Player</string>
+    <string name="second_player">Second Player</string>
+</resources>

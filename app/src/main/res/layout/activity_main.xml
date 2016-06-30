@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hand 1" />
+    <EditText
+        android:id="@+id/etHand1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ah5s"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hand 2" />
+    <EditText
+        android:id="@+id/etHand2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Td2c"
+        />
+
+    <EditText
+        android:id="@+id/etRevealedCards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Revealed cards, e.g: AhJd2d"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/START"
+        android:id="@+id/btStart" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/STOP"
+        android:id="@+id/btStopComputing"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Result"
+        android:id="@+id/tvResult" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Progress"
+        android:id="@+id/tvProgress" />
+
+</LinearLayout>

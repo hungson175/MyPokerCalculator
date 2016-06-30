@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/community_cards"
+        />
+    <calculator.poker.vn.mobile.dtd.mypokercalculator.PlayingCardView
+        android:id="@+id/myCard"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:padding="@dimen/std_pad"
+        android:background="@drawable/card_bg"
+        />
+
+    <EditText
+        android:id="@+id/etCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:text="Parse"
+        android:id="@+id/btParse" />
+
+    <!--<GridView-->
+        <!--android:id="@+id/gridview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:numColumns="4"-->
+        <!--android:layout_height="match_parent"></GridView>-->
+</LinearLayout>

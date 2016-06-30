@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/std_pad"
+    tools:showIn="@layout/activity_card_chooser">
+
+    <calculator.poker.vn.mobile.dtd.mypokercalculator.PlayingCardView
+        android:id="@+id/firstCard"
+        android:layout_width="@dimen/card_width"
+        android:layout_marginRight="@dimen/std_pad"
+        android:layout_height="@dimen/card_height"></calculator.poker.vn.mobile.dtd.mypokercalculator.PlayingCardView>
+
+    <calculator.poker.vn.mobile.dtd.mypokercalculator.PlayingCardView
+        android:id="@+id/secondCard"
+        android:layout_width="@dimen/card_width"
+        android:layout_height="@dimen/card_height"></calculator.poker.vn.mobile.dtd.mypokercalculator.PlayingCardView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/std_pad">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPlayerCards"
+            android:hint="AdTh" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Win: 50%"
+            android:id="@+id/tvWinPercentage" />
+
+<!--
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lose: 50%"
+            android:id="@+id/tvLosePercentage" />
+-->
+    </LinearLayout>
+
+</LinearLayout>
